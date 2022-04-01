@@ -9,8 +9,8 @@
 		"require": "./tsconfig.json"
 	},
 	"scripts": {
-		"v:patch": "npm version patch -m \"chore(release): %s\"",
-		"v:minor": "npm version minor -m \"chore(release): %s\""
+		"v:patch": "npm version patch -m \"chore(release): %s\" --sign-git-tag",
+		"v:minor": "npm version minor -m \"chore(release): %s\" --sign-git-tag"
 	},
 	"devDependencies": {
 		"typescript": "^4.6.3"
