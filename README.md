@@ -1,10 +1,18 @@
-# ts-project-template
+# ts-config
 
 ## Instructions
 
 ### Install the package
 ```sh
-npm install @oadpoaw/ts-package-template
+npm install @oadpoaw/ts-config
+```
+
+### Use the package
+`tsconfig.json`
+```json
+{
+	"extends": "@oadpoaw/ts-config"
+}
 ```
 
 ## License
